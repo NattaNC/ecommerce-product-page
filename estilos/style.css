@@ -325,7 +325,7 @@ input#qtd {
     border: none;
     background-color: var(--cor3);
     text-align: center;
-    width: 4vw;
+    width: 10vw;
     font-size: 1.3rem;
     margin-left: 1rem;
     margin-right: 1rem;
@@ -879,10 +879,11 @@ span#span-pop-up {
         width: 94%;
         margin-right: 0px auto;
         margin: 0px;
-        height: 30vh;
+        height: 230px;
         margin-top: 1rem;
     }
 }
+
 @media only screen and (max-width: 350px) {
     #pop-up {
         display: none;
