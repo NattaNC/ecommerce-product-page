@@ -389,7 +389,7 @@ input[type="number"] {
     display: none;
     position: absolute;
     width: 30vw;
-    height: 40vh;
+    height: 30vh;
     background-color: var(--cor4);
     box-shadow: 2px 2px 30px rgba(0, 0, 0, 0.164);
     border-radius: 1rem;
