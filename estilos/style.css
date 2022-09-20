@@ -389,12 +389,11 @@ input[type="number"] {
     display: none;
     position: absolute;
     width: 30vw;
-    height: 30vh;
+    height: 250px;
     background-color: var(--cor4);
     box-shadow: 2px 2px 30px rgba(0, 0, 0, 0.164);
     border-radius: 1rem;
     margin-right: 2rem;
-    animation:scale-up-ver-top .4s cubic-bezier(.39,.575,.565,1.000) both
 }
 
 
@@ -506,6 +505,16 @@ span#span-pop-up {
 
 /* Demais monitores */
 @media only screen and (max-width: 1300px) {
+    #pop-up {
+        display: none;
+        width: 35%;
+        margin-right: 0px auto;
+        margin: 0px;
+        height: 280px;
+        margin-top: 1rem;
+        margin-right: 2rem;
+    }
+
     .div-btn-checkout {
         margin-top: 2rem;
     }
@@ -519,10 +528,10 @@ span#span-pop-up {
 @media only screen and (max-width: 1200px) {
     #pop-up {
         display: none;
-        width: 40%;
+        width: 35%;
         margin-right: 0px auto;
         margin: 0px;
-        height: 38vh;
+        height: 290px;
         margin-top: 1rem;
         margin-right: 2rem;
     }
@@ -545,7 +554,7 @@ span#span-pop-up {
         width: 45%;
         margin-right: 0px auto;
         margin: 0px;
-        height: 35vh;
+        height: 280px;
         margin-top: 1rem;
         margin-right: 2rem;
     }
@@ -583,7 +592,7 @@ span#span-pop-up {
         width: 45%;
         margin-right: 0px auto;
         margin: 0px;
-        height: 35vh;
+        height: 270px;
         margin-top: 1rem;
         margin-right: 2rem;
     }
@@ -745,7 +754,7 @@ span#span-pop-up {
         width: 94%;
         margin-right: 0px auto;
         margin: 0px;
-        height: 36vh;
+        height: 260px;
         margin-top: 1rem;
     }
 
@@ -868,7 +877,7 @@ span#span-pop-up {
         width: 94%;
         margin-right: 0px auto;
         margin: 0px;
-        height: 35vh;
+        height: 250px;
         margin-top: 1rem;
     }
 }
@@ -890,7 +899,7 @@ span#span-pop-up {
         width: 94%;
         margin-right: 0px auto;
         margin: 0px;
-        height: 30vh;
+        height: 220px;
         margin-top: 1rem;
     }
 }
@@ -901,7 +910,7 @@ span#span-pop-up {
         width: 94%;
         margin-right: 0px auto;
         margin: 0px;
-        height: 28vh;
+        height: 200px;
         margin-top: 1rem;
     }
 }
