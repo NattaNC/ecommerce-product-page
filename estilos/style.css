@@ -96,7 +96,7 @@ header {
 
 /* Menu mobile */
 #nav-menu {
-    display: flex;
+    display: none;
     position: absolute;
     background-color: rgba(122, 122, 122, 0.219);
     width: 100vw;
