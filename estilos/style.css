@@ -405,6 +405,7 @@ h1#h1-pop-up {
     padding: 1rem;
     font-weight: bold;
     margin: 0px;
+    width: 100%;
 }
 
 #preço-final {
@@ -521,7 +522,7 @@ span#span-pop-up {
         width: 40%;
         margin-right: 0px auto;
         margin: 0px;
-        height: 40vh;
+        height: 38vh;
         margin-top: 1rem;
         margin-right: 2rem;
     }
@@ -544,7 +545,7 @@ span#span-pop-up {
         width: 45%;
         margin-right: 0px auto;
         margin: 0px;
-        height: 40vh;
+        height: 35vh;
         margin-top: 1rem;
         margin-right: 2rem;
     }
@@ -582,7 +583,7 @@ span#span-pop-up {
         width: 45%;
         margin-right: 0px auto;
         margin: 0px;
-        height: 40vh;
+        height: 35vh;
         margin-top: 1rem;
         margin-right: 2rem;
     }
@@ -744,7 +745,7 @@ span#span-pop-up {
         width: 94%;
         margin-right: 0px auto;
         margin: 0px;
-        height: 45vh;
+        height: 36vh;
         margin-top: 1rem;
     }
 
@@ -752,6 +753,8 @@ span#span-pop-up {
         width: 100%;
         display: flex;
         justify-content: space-between;
+        margin-top: 1.8rem;
+        margin-bottom: 0rem;
     }
 
     #img-pop-up {
@@ -764,6 +767,7 @@ span#span-pop-up {
     
     .btn-checkout {
         width: 100%;
+        margin-bottom: 0px;
     }
 
     .content-pop-up {
@@ -771,7 +775,7 @@ span#span-pop-up {
     }
 
     .div-btn-checkout {
-        margin-top: 3rem;
+        margin-top: 1rem;
     }
 
     .img-menor, .img-menor2, .img-menor3, .img-menor4 {
@@ -864,7 +868,7 @@ span#span-pop-up {
         width: 94%;
         margin-right: 0px auto;
         margin: 0px;
-        height: 40vh;
+        height: 35vh;
         margin-top: 1rem;
     }
 }
@@ -874,7 +878,7 @@ span#span-pop-up {
         width: 94%;
         margin-right: 0px auto;
         margin: 0px;
-        height: 36vh;
+        height: 35vh;
         margin-top: 1rem;
     }
 }
@@ -884,7 +888,7 @@ span#span-pop-up {
         width: 94%;
         margin-right: 0px auto;
         margin: 0px;
-        height: 35vh;
+        height: 28vh;
         margin-top: 1rem;
     }
 }
