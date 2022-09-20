@@ -537,9 +537,9 @@ span#span-pop-up {
     }
 
     #displaypopup {
-    display: block;
-    width: 90%;
-    margin: auto;
+        display: block;
+        width: 90%;
+        margin: auto;
     }
 
     #img-pop-up {
@@ -633,12 +633,16 @@ span#span-pop-up {
     }
 
     section {
-        margin-top: -5rem;
+        margin-top: 0rem;
         width: 90%;
     }
 
     .section-left {
-        margin-top: 2rem;
+        margin-top: -5rem;
+    }
+
+    .section-right {
+        margin-top: 4rem;
     }
 
     #img-principal, #img-principal2, #img-principal3, #img-principal4 {
@@ -673,12 +677,6 @@ span#span-pop-up {
         height: 100vh;
     }
 
-    #fecharTudo {
-        width: 60%;
-        margin-left: 40vw;
-        height: 100vh;
-    }
-    
     .menu-mobile {
         position: absolute;
         background-color: white;
@@ -716,7 +714,6 @@ span#span-pop-up {
     
     aside > div > nav > ul > li:hover {
         border-bottom: 2px solid var(--cor00);
-    
     }
     
 }
