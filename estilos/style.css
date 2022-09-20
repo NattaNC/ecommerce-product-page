@@ -872,16 +872,28 @@ span#span-pop-up {
         margin-top: 1rem;
     }
 }
+
 @media only screen and (max-width: 400px) {
     #pop-up {
         display: none;
         width: 94%;
         margin-right: 0px auto;
         margin: 0px;
-        height: 35vh;
+        height: 30vh;
         margin-top: 1rem;
     }
 }
+@media only screen and (max-width: 350px) {
+    #pop-up {
+        display: none;
+        width: 94%;
+        margin-right: 0px auto;
+        margin: 0px;
+        height: 30vh;
+        margin-top: 1rem;
+    }
+}
+
 @media only screen and (max-width: 300px) {
     #pop-up {
         display: none;
