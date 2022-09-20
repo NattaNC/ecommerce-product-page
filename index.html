@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sneakers</title>
+    <link rel="stylesheet" href="estilos/style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+</head>
+<body>
+    <!-- Menu navegação mobile -->
+    <aside id="nav-menu">
+        <div class="menu-mobile">
+            <div id="close">
+                <img src="images/icon-close.svg" alt="menu" onclick="fecharmenu">
+            </div>
+            <nav>
+                <ul>
+                    <li><a class="link-menu" href="#">Collection</a></li>
+                    <li><a class="link-menu" href="#">Men</a></li>
+                    <li><a class="link-menu" href="#">Women</a></li>
+                    <li><a class="link-menu" href="#">About</a></li>
+                    <li><a class="link-menu" href="#">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </aside>
+    <!-- Menu navegação mobile -->
+    <!-- Cabeçalho -->
+    <header>
+        <div class="header-left">
+            <div id="div-menu">
+                <img id="menu" src="images/icon-menu.svg" alt="menu" onclick="abrirmenu">
+            </div>
+            <div>
+                <img src="images/logo.svg" alt="logo">
+            </div>
+            <nav>
+                <ul class="nav-flex">
+                    <li><a class="link-nav" href="#">Collection</a></li>
+                    <li><a class="link-nav" href="#">Men</a></li>
+                    <li><a class="link-nav" href="#">Women</a></li>
+                    <li><a class="link-nav" href="#">About</a></li>
+                    <li><a class="link-nav" href="#">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="header-right">
+            <div class="border-hover">
+                <div>
+                    <span class="material-symbols-outlined" id="header-cart" onclick="abrirpopup">shopping_cart</span>
+                    <div id="div-number-cart">
+                        <div id="number-cart">
+                            0
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <a href="#"><img id="img-perfil" src="images/image-avatar.png" alt="foto perfil"></a>
+            </div>
+        </div>
+    </header>
+    <!-- Menu navegação mobile -->
+    <!-- Pop Up de compra -->
+    <div id="container">
+        <div id="pop-up">
+            <h1 id="h1-pop-up">
+                Cart
+            </h1>
+        <div id="displaypopup">
+            <div id="preço-final">
+                <div class="produto-cart">
+                    <div class="div-pop-up">
+                        <img id="img-pop-up" src="images/image-product-1-thumbnail.jpg" alt="">
+                    </div>
+                    <div id="nome-preço">
+                        <div class="div-content-pop-up">
+                            <span class="content-pop-up">
+                                Fall Limited Edition Sneakers
+                            </span>
+                        </div>
+                        <div class="preço-final">
+                            <span id="preço">
+                                $125.00
+                            </span>
+                            <span id="x">
+                                x
+                            </span>
+                            <span id="unidade">
+                                0
+                            </span>
+                            <span id="cifrao">
+                                $
+                            </span>
+                            <span id="res">
+                                0
+                            </span>
+                        </div>
+                    </div>
+                    <div>
+                        <button value="btn-pop-up" name="btn-excluir" id="btn-excluir" onclick="excluir"><img src="images/icon-delete.svg" alt="excluir-btn"></button>
+                    </div>
+                </div>
+                <div class="div-btn-checkout">
+                    <button class="btn-checkout">Checkout</button>
+                </div>
+            </div>
+        </div>
+        <div id="div-span-pop-up">
+            <span id="span-pop-up">
+                Your cart is empty
+            </span>
+        </div>
+    </div>
+    <!-- Pop Up de compra -->
+    <!-- Conteudo da pagina -->
+    <section>
+        <div class="section-left">
+            <div class="img-maior">
+                <div id="preview">
+                    <div id="back">
+                        <img id="anterior" src="images/icon-previous.svg" alt="" onclick="prev">
+                    </div>
+                    <div id="next">
+                        <img id="proximo" src="images/icon-next.svg" alt="" onclick="next">
+                    </div>
+                </div>
+                <img id="img-principal" src="images/image-product-1.jpg" alt="img shoes">
+                <img id="img-principal2" src="images/image-product-2.jpg" alt="img shoes">
+                <img id="img-principal3" src="images/image-product-3.jpg" alt="img-shoes">
+                <img id="img-principal4" src="images/image-product-4.jpg" alt="img-shoes">
+            </div>
+            <div class="img-secundaria">
+                <img class="img-menor" src="images/image-product-1-thumbnail.jpg" alt="" onclick="click1">
+                <img class="img-menor2" src="images/image-product-2-thumbnail.jpg" alt="" onclick="click2">
+                <img class="img-menor3" src="images/image-product-3-thumbnail.jpg" alt="" onclick="click3">
+                <img class="img-menor4" src="images/image-product-4-thumbnail.jpg" alt="" onclick="click3">
+            </div>
+        </div>
+        <div class="section-right">
+            <h2>
+                SNEAKER COMPANY
+            </h2>
+            <h1>
+                Fall Limited Edition Sneakers
+            </h1>
+            <p>
+                These low-profile sneakers are your perfect casual wear companion. Featuring a durable rubbler outer sole, they'll withstand everything the weather can offer.
+            </p>
+            <div class="preço-desconto">
+                <div class="price">
+                    <span id="span-left">
+                        $125.00
+                    </span>
+                    <div class="desconto">
+                        <span id="span-right">
+                            50%
+                        </span>
+                    </div>
+                </div>
+                <span class="preço-antigo">
+                    <s>$250.00</s>
+                </span>
+            </div>
+            <div class="qtd-to-cart">
+                <div class="qtd-produto">
+                        <img onclick="menos()" class="btn-menos" src="images/icon-minus.svg" alt="menos">
+                        <input type="number" name="qtd" id="qtd" placeholder="0"  value="qtd">
+                        <img onclick="mais()" class="btn-mais" src="images/icon-plus.svg" alt="mais">
+                </div>
+                <div class="to-cart">
+                    <button id="btn-to-cart" onclick="tocart">
+                        <div>
+                            <span class="material-symbols-outlined">shopping_cart</span>
+                        </div>
+                        <span class="add-cart">Add to cart</span>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Conteudo da pagina -->
+    <!-- Java Script -->
+    <script src="script.js" refer></script>
+    <!-- Java Script -->
+</body>
+</html>
